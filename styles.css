@@ -4,10 +4,13 @@
       margin: 40px auto;
       border-radius: 25px;
       border: 1px solid #000;
+      text-align: center;
+      padding: 50px;
     }
 
-  .body {
+  body {
     background-image: url("forest.jfif");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: monospace;
 }

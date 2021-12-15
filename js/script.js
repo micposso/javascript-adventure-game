@@ -1,5 +1,11 @@
 console.log("script is loading");
 
+// select the container of the game description
+const descriptionText = document.querySelector(".adventure-description");
+const optionButtons = document.getElementsByClassName("button");
+
+
+
 const textAdventure = [
   {
     id: 1,
@@ -51,7 +57,6 @@ const textAdventure = [
   },
   {
     id: 4,
-    // message: console.log('Thank you for helping Juan!')
     message: "Thank you for helping Juan!",
   },
 ];
